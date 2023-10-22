@@ -1,0 +1,14 @@
+fn main() {
+let p:f64 = 210_000.0;
+let r:f64= 5.0;
+let t:f64= 3.0;
+
+//compound interest for depreciation;
+let a = p * [c1.o - (r/100.00)] * t;
+println!("Amount is {}", a);
+
+//depreciated value
+let ci= a - p;
+println!("compound interest is {}", ci);
+
+}
