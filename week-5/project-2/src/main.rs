@@ -10,7 +10,7 @@ use std::io;
        if age >= 40{
           println!("your incentive is $1560000");
         }
-          if age >=30 - 40{
+          if age >=30 & age < 40{
             println!("your incentive is $1480000");
         }
           if age < 28{
